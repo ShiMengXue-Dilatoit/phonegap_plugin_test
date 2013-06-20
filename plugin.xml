@@ -4,7 +4,7 @@
     id="com.phonegap.helloworldservice"
     version="0.2.1">
 
-    <name>Hello World Service</name>
+    <description> xxx </description>
 
     <asset src="www/cdv-plugin-fb-connect.js" target="cdv-plugin-fb-connect.js" />
     <asset src="www/facebook_js_sdk.js" target="facebook_js_sdk.js" />
