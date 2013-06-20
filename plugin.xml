@@ -2,7 +2,7 @@
 // I am the comments
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegap.facebook"
+    id="com.phonegap.helloworldservice"
     version="0.2.1">
 
     <name>Hello World Service</name>
