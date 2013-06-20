@@ -9,7 +9,7 @@
   </engines>
 
   <name>FastCanvas</name>
-
+  <description>fjkdal;jkfdal</description>
   
   <asset src="FastCanvas.js" target="FastCanvas.js" />
   <platform name="android">
