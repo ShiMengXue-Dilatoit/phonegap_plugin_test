@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.abcphonegfdsgapbuild.xfdsaxx"
-    version="1.3">
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="aaaaaaaaaaaaa"
+  version="1.2.3">
 
-    <name> com.phonegapbuild.xfdsaxx  </name>
-    <description> gwtrfsgwersdgsdgdsf  </description>
+  <engines>
+    <engine name="cordova" version=">=2.3.0" />
+  </engines>
 
-    <asset src="www/cdv-plugin-fb-connect.js" target="cdv-plugin-fb-connect.js" />
-    <asset src="www/facebook_js_sdk.js" target="facebook_js_sdk.js" />
-    
-    <access origin="m.facebook.com" />
-    <access origin="graph.facebook.com" />
-    <access origin="api.facebook.com" />
-    <access origin="*.fbcdn.net" />
-    <access origin="*.akamaihd.net" />
-    
-    <preference name="APP_ID" />
-    
-    <engines>
-      <engine name="cordova" version=">=2.1.0" />
-    </engines>
-    
-    <!-- android -->
-   
+  <name>FastCanvas</name>
+
+  
+  <asset src="FastCanvas.js" target="FastCanvas.js" />
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="plugins">
+      <plugin name="FastCanvas" value="com.adobe.plugins.FastCanvas" />
+    </config-file>
+
+    <source-file src="Android/src/com/adobe/plugins/FastCanvas.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasJNI.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasMessage.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasRenderer.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasTexture.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasTextureDimension.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasView.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/libs/armeabi/libFastCanvasJNI.so" target-dir="libs/armeabi/" />
+  </platform>
+
 </plugin>
