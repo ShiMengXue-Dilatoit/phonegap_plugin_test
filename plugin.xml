@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegapbuild.xfdsaxx"
+    id="com.abcphonegapbuild.xfdsaxx"
     version="1.2.0">
 
     <name> com.phonegapbuild.xfdsaxx  </name>
@@ -192,4 +192,4 @@
         <framework src="Accounts.framework" weak="true" />
         <framework src="AdSupport.framework" weak="true" />
     </platform>
-</plugin>
+</plugins>
