@@ -4,7 +4,7 @@
     id="com.phonegapbuild.xxx"
     version="1.0.0">
 
-    <name> xxx </name>
+    <name> xxx /name
     <description> xxx </description>
 
     <asset src="www/cdv-plugin-fb-connect.js" target="cdv-plugin-fb-connect.js" />
