@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="aaaaaaaaaaaaa"
+  id="com.xyz.abc"
   version="1.2.3">
 
   <engines>
     <engine name="cordova" version=">=2.3.0" />
   </engines>
 
-  <name>FastCanvas</name>
-  <description>fjkdal;jkfdal</description>
+  <name>FastxxCanvas</name>
+  <description></description>
   
   <asset src="FastCanvas.js" target="FastCanvas.js" />
   <platform name="android">
