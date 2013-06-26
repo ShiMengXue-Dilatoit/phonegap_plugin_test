@@ -8,10 +8,12 @@
     <engine name="cordova" version=">=2.3.0" />
   </engines>
 
-
+  <name>xjkflda</name>
   <decription>xxxxx</decription>
   
   <asset src="FastCanvas.js" target="FastCanvas.js" />
+
+<!-
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="plugins">
       <plugin name="FastCanvas" value="com.adobe.plugins.FastCanvas" />
@@ -26,5 +28,5 @@
     <source-file src="Android/src/com/adobe/plugins/FastCanvasView.java" target-dir="src/com/adobe/plugins/" />
     <source-file src="Android/libs/armeabi/libFastCanvasJNI.so" target-dir="libs/armeabi/" />
   </platform>
-
+-->
 </plugin>
