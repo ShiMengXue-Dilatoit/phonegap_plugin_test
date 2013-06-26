@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="com.adobe.plugins.FastCanssvasXX"
+  id="aaaaa/bbbbbb"
   version="1.4.0">
 
   <engines>
@@ -15,6 +15,20 @@
   </description>
   
   <asset src="FastCanvas.js" target="FastCanvas.js" />
+  
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="plugins">
+      <plugin name="FastCanvas" value="com.adobe.plugins.FastCanvas" />
+    </config-file>
 
+    <source-file src="Android/src/com/adobe/plugins/FastCanvas.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasJNI.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasMessage.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasRenderer.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasTexture.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasTextureDimension.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/FastCanvasView.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/libs/armeabi/libFastCanvasJNI.so" target-dir="libs/armeabi/" />
+  </platform>
 
 </plugin>
