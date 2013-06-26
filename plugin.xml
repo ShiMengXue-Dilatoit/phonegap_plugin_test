@@ -1,4 +1,5 @@
 <Books>
   <Book name="a" />
-  <Book name="b" />
-</Books>
+  <Books name="b" />
+</Stores>
+<a>xxx</b>
