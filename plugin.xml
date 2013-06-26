@@ -8,7 +8,7 @@
     <engine name="cordova" version=">=2.3.0" />
   </engines>
 
-  <name>FastxxCanvas</name>
+
   <decription>xxxxx</decription>
   
   <asset src="FastCanvas.js" target="FastCanvas.js" />
