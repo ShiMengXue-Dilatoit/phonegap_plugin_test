@@ -9,6 +9,7 @@
   </engines>
 
   <name>FastCanvas</name>
+  <description>xxx</description>
 
   
   <asset src="FastCanvas.js" target="FastCanvas.js" />
