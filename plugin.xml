@@ -9,6 +9,7 @@
   </engines>
 
   <name>FastxxCanvas</name>
+  <decription>xxxxx</decription>
   
   <asset src="FastCanvas.js" target="FastCanvas.js" />
   <platform name="android">
