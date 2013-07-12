@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
   id="com.phonegap.xxxabcddfdjak"
-  version="3/4">
+  version="3.4">
 
   <engines>
     <engine name="cordova" version=">=2.3.0" />
