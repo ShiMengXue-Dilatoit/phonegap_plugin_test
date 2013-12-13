@@ -14,6 +14,8 @@
     While FastCanvas attempts to look and behave like the HTML5 canvas, it only supports a subset of the HTML5 canvas API, focusing on what benefits most from hardware acceleration.
   </description>
   
+  <license>Apache 2.0</license>
+  
   <asset src="FastCanvas.js" target="FastCanvas.js" />
   
   <platform name="android">
